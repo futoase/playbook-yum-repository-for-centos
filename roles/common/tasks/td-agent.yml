@@ -1,0 +1,4 @@
+---
+- name: set yum repository for the td-agent
+  copy: src=td-agent.repo dest=/etc/yum.repos.d/td-agent.repo mode=0644 owner=root group=root
+  notify: yum update

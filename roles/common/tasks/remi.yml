@@ -1,0 +1,3 @@
+---
+- name: set yum repository for the remi
+  yum: name=http://rpms.famillecollet.com/enterprise/remi-release-6.rpm

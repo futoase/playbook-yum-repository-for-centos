@@ -1,0 +1,4 @@
+---
+- name: set yum repository for the mariadb
+  copy: src=mariadb.repo dest=/etc/yum.repos.d/mariadb.repo mode=0644 owner=root group=root
+  notify: yum update

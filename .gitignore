@@ -1,0 +1,5 @@
+.bundle/*
+.vagrant/*
+vendor/*
+packer/packer_cache
+packer/builds

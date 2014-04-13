@@ -1,0 +1,4 @@
+---
+- name: set yum repository for the mongodb
+  copy: src=mongodb.repo dest=/etc/yum.repos.d/mongodb.repo mode=0644 owner=root group=root
+  notify: yum update

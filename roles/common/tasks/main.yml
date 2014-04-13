@@ -1,0 +1,9 @@
+---
+- include: epel.yml
+- include: remi.yml
+- include: mysql.yml
+- include: mariadb.yml
+- include: postgresql.yml
+- include: nginx.yml
+- include: mongodb.yml
+- include: td-agent.yml
